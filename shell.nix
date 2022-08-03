@@ -21,7 +21,7 @@ mkShell {
 
   name = "env";
   buildInputs = [
-    figlet nodejs wasme elixir
+    figlet nodejs wasme elixir umoci
   ];
 
   shellHook = ''
